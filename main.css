@@ -1,0 +1,28 @@
+
+
+body{
+    width: 350px;
+    height: 200px   ;
+    text-align: center;
+    background-color: #1ed561;
+    
+}
+.container{
+    width: 100%;
+    background-color: black;
+}
+.container > h1{
+    color: #1ed561;
+    font-weight: 100;
+    align-content: center;
+   
+}
+
+
+.container2 > h1{
+    text-align: center;
+    padding-top: 5%;
+    font-weight: 100;
+    font-size: 50;
+    color: black;
+}

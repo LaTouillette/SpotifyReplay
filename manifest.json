@@ -1,0 +1,32 @@
+{
+    "manifest_version": 2,
+
+    "name": "Spotify Replay",
+
+    "description": "Refresh and replay the playlist when spotify crash",
+
+    "version": "1",
+
+    "author": "LaTouillette",
+
+    "permissions":["webNavigation"],
+
+    "icons": {
+        "128": "img/128icon.png"
+     },
+
+    "browser_action":{
+        "default_popup": "index.html"
+    },
+    
+    "content_scripts": [
+      {
+      "matches": [
+          "https://open.spotify.com/*"
+      ],
+      
+      "js": ["content.js"]
+      }
+  ]
+}
+     
